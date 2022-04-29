@@ -145,7 +145,7 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
 ```
 
 ## Testing
-I uploaded  a test .jpg file using the form, captured the request using browser dev tools and exported as a Curl command (image data replaced with BASE64_DATA_HERE for readability):
+I decided to use Curl to bypass the client side filtering. I uploaded  a test .jpg file using the form, captured the request using browser dev tools and exported as a Curl command (image data replaced with BASE64_DATA_HERE for readability):
 
 ```bash
 curl 'http://jewel.uploadvulns.thm/' 
